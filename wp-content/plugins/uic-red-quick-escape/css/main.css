@@ -1,0 +1,24 @@
+#get-away {
+    padding: 15px 25px;
+    position: fixed;
+    background-color: var(--primary-theme-color);
+    bottom: 80px;
+    right: 0px;
+    z-index: 9999999;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Tablet */
+@media only screen and (max-width: 800px) {
+    #get-away {
+        bottom: 50px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    #get-away {
+        bottom: 25px;
+    }
+}
